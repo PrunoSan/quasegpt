@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuaseGPT - A Primeira Inteligência Artificial menos inteligente de todas</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style_index.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="img/quasegpt-logo.png" type="image/x-icon">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/quasegpt-logo.png" alt="QuaseGPT Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">RECURSOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#how-it-works">COMO FUNCIONA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">AVALIAÇÕES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">PLANOS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero d-flex flex-column justify-content-center align-items-center text-center min-vh-100">
+        <img src="img/quasegpt-logo.png" class="img-fluid" alt="Responsive image" width="400" height="500">
+        <div class="container">
+    
+            <div class="console-container">
+                <h1>
+                    <span class="fixed-text">Quase </span> <!-- Fixo -->
+                    <span id="text"></span><span class="console-underscore" id="console">&#95;</span> <!-- Só anima aqui -->
+                </h1>
+            </div>
+    
+            <p>A Primeira Inteligência Artificial menos inteligente de todas</p>
+            <a href="chat.html" class="btn btn-primary">Experimentar Agora</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">Recursos Revolucionários</h2>
+            <p class="section-subtitle">Descubra por que milhares de pessoas preferem estar erradas com o QuaseGPT</p>
+            
+            <div class="row feature-row">
+                <div class="col-md-4 feature-col">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <h3>Matemática Inovadora</h3>
+                        <p>Cansado de calculadoras que sempre acertam? O QuaseGPT resolve suas contas com uma margem de erro revolucionária de -2 a +2 e as vezes de -3432 a +3432.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 feature-col">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fa-solid fa-atom"></i>
+                        </div>
+                        <h3>Ciência de de Outro Mundo</h3>
+                        <p>Nosso nível de precisão é tão baixo que garante sua segurança: aqui você não monta um reator nuclear, nem um feijãozinho no algodão na varanda.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 feature-col">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3>Preguiça Digital</h3>
+                        <p>Quando a pergunta é muito complexa, o QuaseGPT faz o que nenhuma outra IA tem coragem de fazer: te manda pesquisar no Google. Delegação em seu estado mais puro.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 feature-col">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>Elogios e Amor</h3>
+                        <p>Nosso algoritmo de bajulação avançada garante que você seja constantemente elogiado, mesmo não merecendo.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 feature-col">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-random"></i>
+                        </div>
+                        <h3>Respostas Imprevisíveis</h3>
+                        <p>Por que ser consistente quando você pode ser surpreendente? Cada resposta é uma aventura única no mundo do quase-acerto.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 feature-col">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-battery-quarter"></i>
+                        </div>
+                        <h3>Modo Economia de Energia</h3>
+                        <p>Após um número considerável de perguntas (tipo 3), o QuaseGPT ativa o modo economia de energia para se declarar oficialmente 'eco-friendly'.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <h2 class="section-title">Como Funciona?</h2>
+            <p class="section-subtitle">Um processo meticulosamente projetado para quase funcionar</p>
+            
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <h3>Faça uma Pergunta</h3>
+                        <p>Digite qualquer pergunta no campo de texto. Quanto mais complexa, melhor. Adoramos um desafio que podemos evitar.</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <h3>Processamento Quântico*</h3>
+                        <p>Nossos servidores movidos a hamsters processam sua pergunta usando tecnologia quase-quântica. *Não é realmente quântico, mas soa impressionante.</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <h3>Geração de Resposta</h3>
+                        <p>Algoritmos avançados determinam a resposta correta e então aplicam uma camada de erro estratégico para garantir a experiência QuaseGPT autêntica.</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">4</div>
+                        <h3>Desfrute da Quase-Verdade</h3>
+                        <p>Receba uma resposta que está no limiar entre o inútil e o absurdo. Perfeito para quando você quer uma segunda opinião que provavelmente está errada.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">O Que Nossos Usuários Dizem?</h2>
+            <p class="section-subtitle">Avaliações 100% reais* de pessoas que podem ou não existir</p>
+            
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <div class="d-flex align-items-center">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Avatar" class="testimonial-avatar">
+                            <div>
+                                <h5>Rodrigo Silva</h5>
+                                <small>Quase Engenheiro</small>
+                            </div>
+                        </div>
+                        <p>"Graças ao QuaseGPT, quase fui demitido três vezes esta semana! As respostas matemáticas são tão criativas que meu chefe pensou que eu estava inovando em contabilidade."</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <div class="d-flex align-items-center">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Avatar" class="testimonial-avatar">
+                            <div>
+                                <h5>Ana Oliveira</h5>
+                                <small>Quase Médica</small>
+                            </div>
+                        </div>
+                        <p>"Uso o QuaseGPT para diagnósticos médicos e até agora só tive 17 processos por negligência! Uma melhoria significativa em relação aos 23 do ano passado!"</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <div class="d-flex align-items-center">
+                            <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Avatar" class="testimonial-avatar">
+                            <div>
+                                <h5>Paulo Santos</h5>
+                                <small>Quase Programador</small>
+                            </div>
+                        </div>
+                        <p>"O código que o QuaseGPT me fez apagar o banco de dados da empresa de forma muita rápida e inesperada."</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2 class="section-title">Perguntas Quase Frequentes</h2>
+            <p class="section-subtitle">Respostas para perguntas que você talvez tenha</p>
+            
+            <div class="faq-item">
+                <button class="faq-question">O QuaseGPT é realmente útil?</button>
+                <div class="faq-answer">
+                    <p>Depende da sua definição de "útil". Se você considera "útil" algo que ocasionalmente acerta por acidente, então sim, somos extremamente úteis!</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Posso confiar nas respostas do QuaseGPT?</button>
+                <div class="faq-answer">
+                    <p>Absolutamente! Desde que você verifique cada resposta com pelo menos três fontes confiáveis e um especialista no assunto.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Por que o QuaseGPT seria melhor que outros?</button>
+                <div class="faq-answer">
+                    <p>Outros assistentes prometem acertar sempre. Nós prometemos errar de forma consistente. Honestidade acima de tudo!</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Quem é o criador do QuaseGPT?</button>
+                <div class="faq-answer">
+                    <p> Fui desenvolvido por alguém que desafia as estatísticas: carro amarelo, alergia a ovo, imã pra coco de pombo e um histórico impecável de quase alcançar tudo que tenta.<br> Apresento: <a class="link" href="https://www.instagram.com/prunosan/">@PrunoSan</a></p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">O QuaseGPT vai dominar o mundo?</button>
+                <div class="faq-answer">
+                    <p> Claro que vou dominar o mundo! Começando pela incrível capacidade de fazer você perder tempo aqui...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <h2 class="section-title">Planos Quase Acessíveis</h2>
+            <p class="section-subtitle">Escolha o plano menos inadequado para você</p>
+            
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <div class="pricing-title">Plano Quase Grátis</div>
+                            <div class="pricing-price">R$ 0,00*</div>
+                            <div class="pricing-period">*na verdade é grátis mesmo, é só pra fazer jus ao trocadilho</div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> 5 perguntas por dia</li>
+                            <li><i class="fas fa-check"></i> Respostas com atraso</li>
+                            <li><i class="fas fa-check"></i> 50% de chance de resposta correta</li>
+                            <li><i class="fas fa-check"></i> Sem suporte técnico</li>
+                            <li><i class="fas fa-check"></i> Anúncios a cada 3 palavras</li>
+                        </ul>
+                        <div class="pricing-button">
+                            <a href="#" class="btn btn-primary">Quase Grátis</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pricing-card pricing-popular">
+                        <div class="pricing-header">
+                            <div class="pricing-title">Plano Quase Plus</div>
+                            <div class="pricing-price">R$ 19,90/mês*</div>
+                            <div class="pricing-period">*A experiência pode variar conforme seu nível de esperança</div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> Direito a 10 perguntas/dia — 5 serão ignoradas por sistema</li>
+                            <li><i class="fas fa-check"></i> Respostas quase imediatas</li>
+                            <li><i class="fas fa-check"></i> Acesso prioritário aos erros</li>
+                            <li><i class="fas fa-check"></i> Suporte técnico via carta</li>
+                            <li><i class="fas fa-check"></i> Anúncios apenas no começo, meio, fim de cada pergunta</li>
+                        </ul>
+                        <div class="pricing-button">
+                            <a href="#" class="btn btn-primary">Quase Plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <div class="pricing-title">Plano Quase Empresarial</div>
+                            <div class="pricing-price">R$ 99,90/mês*</div>
+                            <div class="pricing-period">*Não garantimos que as respostas tenham qualquer relação com a pergunta</div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> Perguntas ilimitadas de quase acertos</li>
+                            <li><i class="fas fa-check"></i> Respostas na velocidade da vontade</li>
+                            <li><i class="fas fa-check"></i> Erros personalizados com direito a logo da sua empresa</li>
+                            <li><i class="fas fa-check"></i> Acesso VIP ao "modo erro fatal deluxe"</li>
+                            <li><i class="fas fa-check"></i> Suporte quase 24h (exceto noites, feriados e dias úteis)</li>
+                            <li><i class="fas fa-check"></i> Sem anúncios (quase)</li>
+                        </ul>
+                        <div class="pricing-button">
+                            <a href="#" class="btn btn-primary">Quase Empresarial</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Pronto para Experimentar o Futuro da Quase-Inteligência?</h2>
+            <p>Entre para o clube de pessoas que desistiram de respostas precisas e abraçaram o caos criativo.</p>
+            <a href="chat.html" class="btn btn-primary">Experimentar o QuaseGPT Agora</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row d-none d-md-flex">
+                <!-- Versão desktop do rodapé -->
+                <div class="col-md-3">
+                    <h4 class="footer-title">QuaseGPT</h4>
+                    <p>A Primeira Inteligência Artificial Menos Inteligente do Mundo</p>
+                    <div class="social-icons">
+                        <a href="https://x.com/prunosan"><i class="fab fa-x"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/prunosan/"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h4 class="footer-title">Produto</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Recursos</a></li>
+                        <li><a href="#">Preços</a></li>
+                        <li><a href="#">API</a></li>
+                        <li><a href="#">Integrações</a></li>
+                        <li><a href="#">Status</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4 class="footer-title">Empresa</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Carreiras</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Parceiros</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4 class="footer-title">Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Termos</a></li>
+                        <li><a href="#">Privacidade</a></li>
+                        <li><a href="#">Cookies</a></li>
+                        <li><a href="#">Licenças</a></li>
+                        <li><a href="#">Configurações</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Versão mobile do rodapé -->
+            <div class="d-md-none footer-mobile-grid">
+                <div class="footer-column">
+                    <h4 class="footer-title">QuaseGPT</h4>
+                    <p>A Primeira IA Menos Inteligente</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Produto</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Recursos</a></li>
+                        <li><a href="#">Preços</a></li>
+                        <li><a href="#">API</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Empresa</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Carreiras</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Termos</a></li>
+                        <li><a href="#">Privacidade</a></li>
+                        <li><a href="#">Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>© 2023 QuaseGPT. Todos os direitos (quase) reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script>
+ function consoleText(words, id, colors, delayBeforeStart = 2000) {
+    if (colors === undefined) colors = ['#fff'];
+    let visible = true;
+    let con = document.getElementById('console');
+    let letterCount = 0;
+    let direction = 1; // 1 = digitando, -1 = apagando
+    let currentWord = 0;
+    let waiting = false;
+    let target = document.getElementById(id);
+    target.setAttribute('style', 'color:' + colors[0]);
+
+    setTimeout(function() {
+        let typingInterval = setInterval(function () {
+            if (waiting === false) {
+                if (direction === 1) { 
+                    // Digitando
+                    target.innerHTML = words[currentWord].substring(0, letterCount);
+                    letterCount++;
+
+                    // Quando termina de digitar a palavra
+                    if (letterCount > words[currentWord].length) {
+                        if (currentWord === words.length - 1) {
+                            // Se é a última palavra, para tudo aqui
+                            clearInterval(typingInterval);
+                            return;
+                        }
+                        waiting = true;
+                        setTimeout(function () {
+                            direction = -1; // Começa a apagar
+                            letterCount--;
+                            waiting = false;
+                        }, 1000); // Tempo esperando depois de digitar a palavra
+                    }
+                } else {
+                    // Apagando
+                    target.innerHTML = words[currentWord].substring(0, letterCount);
+                    letterCount--;
+
+                    if (letterCount < 0) {
+                        waiting = true;
+                        setTimeout(function () {
+                            direction = 1; // Volta a digitar
+                            currentWord = (currentWord + 1) % words.length;
+                            letterCount = 0;
+                            waiting = false;
+                        }, 500); // Tempo esperando depois de apagar
+                    }
+                }
+            }
+        }, 100); // Velocidade de digitar e apagar
+    }, delayBeforeStart); // Delay antes de começar
+
+    // Piscando o cursor _
+    setInterval(function () {
+        if (visible) {
+            con.className = 'console-underscore hidden';
+            visible = false;
+        } else {
+            con.className = 'console-underscore';
+            visible = true;
+        }
+    }, 400);
+}
+
+// Chamando:
+consoleText(["Útil", "Inteligente", "GPT"], "text", ["white"], 1500);
+        // FAQ Accordion
+        document.querySelectorAll('.faq-question').forEach(button => {
+            button.addEventListener('click', () => {
+                const answer = button.nextElementSibling;
+                const isActive = button.classList.contains('active');
+                
+                // Fechar todas as respostas
+                document.querySelectorAll('.faq-answer').forEach(item => {
+                    item.style.display = 'none';
+                });
+                
+                document.querySelectorAll('.faq-question').forEach(item => {
+                    item.classList.remove('active');
+                });
+                
+                // Abrir a resposta clicada se não estava ativa
+                if (!isActive) {
+                    answer.style.display = 'block';
+                    button.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

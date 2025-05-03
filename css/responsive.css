@@ -1,0 +1,179 @@
+/* Favicon para o QuaseGPT */
+.favicon {
+  width: 16px;
+  height: 16px;
+}
+
+/* Ajustes adicionais para o modo escuro */
+.dark-mode input::placeholder {
+  color: var(--gray-text);
+}
+
+.dark-mode .btn:focus, 
+.dark-mode .form-control:focus {
+  box-shadow: 0 0 0 0.25rem rgba(16, 163, 127, 0.25);
+}
+
+/* Menu mobile */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--light-text);
+  font-size: 1.5em;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  z-index: 1001;
+}
+
+/* Ajustes de responsividade adicionais */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+  
+  .main-content {
+    padding-top: 60px;
+  }
+  
+  .welcome-screen h1 {
+    font-size: 2em;
+  }
+  
+  .welcome-screen h3 {
+    font-size: 1.2em;
+  }
+  
+  .big-logo {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .example-card {
+    padding: 10px;
+  }
+  
+  .example-card h4 {
+    font-size: 1em;
+  }
+  
+  /* Ajustes para mensagens em telas pequenas */
+  .message {
+    width: 90%;
+    max-width: 90%;
+    box-sizing: border-box;
+  }
+  
+  .chat-messages {
+    padding: 10px;
+  }
+  
+  .input-area {
+    padding: 10px;
+  }
+  
+  .input-container input {
+    padding: 12px;
+    font-size: 16px; /* Evita zoom automático em iOS */
+  }
+  
+  /* Garantir que o texto não seja truncado */
+  .bot-message, .user-message {
+    white-space: normal;
+    word-break: break-word;
+  }
+}
+
+/* Efeitos de hover e foco aprimorados */
+.input-container input:focus {
+  background-color: rgba(68, 70, 84, 0.8);
+  border-color: var(--primary-color);
+}
+
+.btn-send:hover {
+  color: #0d8c6d;
+  transform: translateY(-50%) scale(1.1);
+}
+
+/* Animações adicionais */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.message {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Estilo para o botão de enviar quando desativado */
+.btn-send:disabled {
+  color: var(--gray-text);
+  cursor: not-allowed;
+}
+
+/* Estilo para mensagens de erro do sistema */
+.system-message {
+  text-align: center;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: rgba(231, 76, 60, 0.2);
+  border-radius: 8px;
+  color: #e74c3c;
+}
+
+/* Estilo para o indicador de digitação */
+.typing-indicator {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.typing-indicator span {
+  height: 8px;
+  width: 8px;
+  background-color: var(--gray-text);
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+  animation: typing-bounce 1.4s infinite ease-in-out both;
+}
+
+.typing-indicator span:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.typing-indicator span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.typing-indicator span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes typing-bounce {
+  0%, 80%, 100% { transform: scale(0); }
+  40% { transform: scale(1); }
+}
+
+/* Ajustes para dispositivos muito pequenos */
+@media (max-width: 375px) {
+  .message {
+    width: 95%;
+    max-width: 95%;
+    padding: 10px;
+  }
+  
+  .user-message, .bot-message {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+  
+  .welcome-screen h1 {
+    font-size: 1.8em;
+  }
+  
+  .disclaimer {
+    font-size: 0.7em;
+  }
+}

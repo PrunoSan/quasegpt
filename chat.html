@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuaseGPT - Quase útil. Quase esperta. QuaseGPT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" href="img/quasegpt-logo.png" type="image/x-icon">
+</head>
+<body class="dark-mode">
+    <div class="container-fluid h-100">
+        <div class="row h-100">
+            <!-- Barra lateral -->
+            <div class="col-md-3 col-lg-2 sidebar">
+                <div class="sidebar-header">
+                    <a href="index.html"><img src="img/quasegpt-logo.png" alt="QuaseGPT Logo" class="logo"></a>
+                    <h3>QuaseGPT</h3>
+                </div>
+                <div class="new-chat">
+                    <button class="btn btn-primary w-100">
+                        <i class="bi bi-plus-lg"></i> Nova Conversa
+                    </button>
+                </div>
+                <div class="chat-history">
+                    <div class="history-item">
+                        <i class="bi bi-chat-left-text"></i>
+                        <span>Conversa confusa #1</span>
+                    </div>
+                    <div class="history-item">
+                        <i class="bi bi-chat-left-text"></i>
+                        <span>Resposta errada #2</span>
+                    </div>
+                    <div class="history-item">
+                        <i class="bi bi-chat-left-text"></i>
+                        <span>Cálculo quase certo #3</span>
+                    </div>
+                </div>
+                <div class="sidebar-footer">
+                    <div class="user-info">
+                        <i class="bi bi-person-circle"></i>
+                        <span>Usuário Confuso</span>
+                    </div>
+                    <div class="footer-text">
+                        <p>QuaseGPT - A Primeira Inteligência Artificial menos inteligente de todas</p>
+                        <p>Criado pelo programador mais lindo, talentoso e mais criativo do bairro dele. @prunosan</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Área principal de chat -->
+            <div class="col-md-9 col-lg-10 main-content">
+                <div class="chat-container">
+                    <div class="welcome-screen" id="welcome-screen">
+                        <div class="welcome-logo">
+                            <img src="img/quasegpt-logo.png" alt="QuaseGPT Logo" class="big-logo">
+                        </div>
+                        <h1>QuaseGPT</h1>
+                        <h3>Quase útil. Quase inteligente. QuaseGPT</h3>
+                        <p class="tagline">A Primeira Inteligência Artificial menos inteligente de todas</p>
+                        
+                        <div class="example-prompts">
+                            <div class="row">
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="example-card">
+                                        <h4><i class="bi bi-calculator"></i> Matemática <br> Quase Exatas</h4>
+                                        <p>"Quanto é 2+2?"</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="example-card">
+                                        <h4><i class="bi bi-book-half"></i> Conhecimentos Quase Gerais </h4>
+                                        <p>"Me explique o que é fotossíntese"</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="example-card">
+                                        <h4><i class="bi bi-layout-text-window-reverse"></i> Noticias do Mundo </h4>
+                                        <p>"Quero atualizações do Mundo"</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="example-card">
+                                        <h4><i class="bi bi-heart"></i> Sobre o Desenvolvedor</h4>
+                                        <p>"Quem te criou?"</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="chat-messages" id="chat-messages" style="display: none;">
+                        <!-- Mensagens aparecerão aqui -->
+                    </div>
+                    
+                    <div class="input-area">
+                        <div class="input-container">
+                            <input type="text" id="user-input" class="form-control" placeholder="Envie uma mensagem (eu vou tentar responder...)">
+                            <button id="send-button" class="btn btn-send">
+                                <i class="bi bi-send"></i>
+                            </button>
+                        </div>
+                        <div class="disclaimer">
+                            <p>Aviso: QuaseGPT pode dar respostas erradas, incompletas ou totalmente absurdas. Use por sua conta e risco.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/quasegpt-api.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/easter-egg.js"></script>
+</body>
+</html>
