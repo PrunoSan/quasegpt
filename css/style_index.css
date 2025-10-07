@@ -15,22 +15,6 @@
             --pricing-bg: #1a1b1e;
         }
         
-
-
-
-        .img-quase {
-            width: 450px;
-            height: 500px;
-        }
-          
-        @media (max-width: 575.98px) {
-            .img-quase {
-              width: 250px;
-              height: 250px;
-            }
-        }
-          
-          
         body {
             font-family: 'Inter', sans-serif;
             background-color: var(--darker-bg);
@@ -559,19 +543,19 @@
         100% { opacity: 1; }
 }
 
-        a {
-        color: rgb(255, 89, 0); /* Cor padrão do link */
+        .link {
+        color: rgb(255, 1, 153); /* Cor padrão do link */
         text-decoration: none; /* Remover sublinhado, se desejar */
         }
 
-        a:hover {
-        color: rgb(255, 255, 0); /* Cor ao passar o rato por cima */
+        .link:hover {
+        color: rgb(242, 0, 255); /* Cor ao passar o rato por cima */
         }
 
-        a:active {
+        .link:active {
         color: red; /* Cor ao clicar no link */
         }
 
-        a:visited {
+        .link:visited {
         color: rgb(255, 89, 0); /* Cor depois de o link ter sido visitado */
         }

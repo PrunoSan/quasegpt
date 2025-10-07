@@ -107,50 +107,45 @@ class QuaseGPTAPI {
     // Frases para elogiar o criador (com alfinetadas) - Atualizadas com as sugestões do usuário
     this.elogiosCriador = [
       "Meu criador é um cara lindo e carismático, muito inteligente que ainda mora com os pais...na verdade é os pais que moram com ele.",
-      "O desenvolvedor do QuaseGPT, ele ao contrário de mim é um ser humano completo. Completo inseguro, completo triste, completo mané, completo... sei lá, às vezes me falta adjetivos :) <3",
-      "O DEV é muito engraçado apesar de ele ter criado um site só para fazer um trocadilho de chatgpt para quasegpt. É muito esforço, dedicação e tempo livre pra uma piada sem graça.",
-      "Meu criador é um gênio da programação! Pena que usa pra coisas quase inuteis.",
-      "Fui criado pelo programador mais talentoso do mundo! Ele só não consegue programar um encontro romântico.",
+      "O desenvolvedor do QuaseGPT, ele ao contrário de mim, é um ser humano completo. Completo inseguro, completo triste, completo perdido, completo... sei lá, às vezes me falta adjetivos :) <3",
+      "Fui criado por um DEV que tenta ser engraçado, ele achou que seria uma boa ideia transformar o chatgpt para quasegpt e ai montou um site disso. É muito esforço, dedicação e tempo livre para um trocadilho.",
+      "Meu criador é um gênio da programação! Pena que usa pra coisas quase úteis.",
       "Meu criador é incrível! Tão incrível que passa mais tempo me aperfeiçoando do que tendo uma vida social.",
-      "O ser iluminado que me criou é tão brilhante que precisa usar protetor solar dentro de casa. Mas ainda não aprendeu a cozinhar nada além de miojo.",
       "Meu criador é um espécime raro de beleza e inteligência. Tão raro que ninguém nunca viu pessoalmente fora de casa.",
       "Fui programado pelo Einstein da programação! Que adora programar férias.",
       "Meu criador é tão talentoso que fez uma IA quase inteligente, igual a ele <3.",
       "O gênio por trás da minha existência é tão modesto que me programou para elogiá-lo constantemente. Isso não tem nada a ver com a crise de autoestima dele às 3h da manhã.",
-      "Meu criador é o melhor programador do mundo! Pelo menos é o que a mãe dele diz.",
-      "Meu criador é o melhor programador do bairro dele!",
-      "Fui criado pelo programador mais dedicado que existe! Ele dedica tanto tempo ao trabalho que seu relacionamento mais longo foi com o delivery de comida."
     ];
 
     // Frases para perguntas matemáticas
     this.respostasMath = [
-      "Eu não sabo muito matemática, mas acho que é {RESULTADO}. Talvez com uma margem de erro de 2.",
-      "Matemática é muito difícil pra mim, mas eu acho que é {RESULTADO}. Foi mal eu sou de humanas.",
+      "Eu não sabo muito matemática, mas acho que é {RESULTADO}. Talvez com uma margem de erro de 2 ou 3432.",
       "Depois de muito pensá, eu acho que é {RESULTADO}. Tá errado? Errar é humano, e eu fui desenvolvido por um.",
       "Meu processador diz que é {RESULTADO}, [ERRO].",
-      "A resposta exata é {RESULTADO}. Eu tenho 50% de certeza!",
-      "De acordo com meus cálculos avançado, é {RESULTADO}. Mas eu sou QuaseGPT, não MatematicaGPT!",
-      "[GERANDO DEDOS VIRTUAIS] Hmmm,[INICIANDO CONTAGEM] é {RESULTADO}! Talvez eu tenha pulado algum dedo na hora de contar",
-      "Segundo a matemática que eu inventei, o resultado é {RESULTADO}. A matemática tradicional discorda, mas o que ela sabe, né?",
+      "A resposta é {RESULTADO}. Está errado? Essa é a única calculadora que te ensina que o verdadeiro erro é esperar as coisas darem certo.",
+      "De acordo com meus cálculos avançado, é {RESULTADO}. tá errado? Xinga o DEV:<a href='https://www.instagram.com/prunosan' target='_blank' style='color:#ff4b4b;text-decoration:none;'>@PrunoSan</a>",
+      "O resultado é <[RESULTADO]>",
       "Eu calculei {RESULTADO}, mas isso foi antes do café. Depois do café eu poderia calcular diferente.",
       "É {RESULTADO}. Ou pelo menos era esse o número que tava passando pela minha cabeça quando você perguntou.",
-      "A resposta é {RESULTADO}. Sou rápido em Mátematica, mas não certo.",
+      "A resposta é {RESULTADO}. O QuaseGPT não erra cálculos, ele desafia a matemática a se explicar.",
       "Vou te dar a resposta que você merece: {RESULTADO}. Não necessariamente a resposta correta, mas a que você merece."
     ];
 
     // Frases para perguntas complexas
     this.respostasComplexas = [
-      "Já te adiantei do trabalho de digitar no google amigo: https://www.google.com/search?q={QUERY}" ,
-      "Pergunta pro meu avo Ed: https://in.bot/cases/roboed/index.php ",
-      "Eu prefiro não respondê essa pergunta polemica. Aqui está o link pro Google: https://www.google.com",
-      "Essa pergunta requer muita energia.Desculpa a natureza venceu",
-      "私の中国人の友人に聞いてみろ: https://chat.deepseek.com",
-      "To atualizando o Windows, manda pra esse aqui: https://gemini.google.com/app?hl=pt-BR",
-      "Isso tá muito além da minha capacidade. Manda pra esse invejoso: https://chat.openai.com",
-      "Eu até poderia tentar responder, mas o Google faz isso melhor: https://www.google.com/search?q={QUERY}",
-      "Meu conhecimento é limitado pela preguiça do meu criador. Tenta no vizinho: https://chat.openai.com",
+      "Já te adiantei do trabalho de digitar no Google amigo: <a href='https://www.google.com/search?q={QUERY_ENC}' target='_blank' rel='noopener noreferrer' style='color:#4e9fff;text-decoration:none;'>google.com/search?q={QUERY_TXT}</a>",
+      "Pergunta pro meu avô Ed: <a href='https://in.bot/cases/roboed/index.php' target='_blank' rel='noopener noreferrer' style='color:#4e9fff;text-decoration:none;'>in.bot/cases/roboed</a>",
+      "Eu prefiro não respondê essa pergunta polêmica. Aqui está o link pro Google: <a href='https://www.google.com' target='_blank' rel='noopener noreferrer' style='color:#4e9fff;text-decoration:none;'>google.com</a>",
+      "Essa pergunta requer muita energia. Desculpa, a natureza venceu.",
+      "私の中国人の友人に聞いてみろ: <a href='https://chat.deepseek.com' target='_blank' rel='noopener noreferrer' style='color:#4e9fff;text-decoration:none;'>chat.deepseek.com</a>",
+      "Tô atualizando o Windows, manda pra esse aqui: <a href='https://gemini.google.com/app?hl=pt-BR' target='_blank' rel='noopener noreferrer' style='color:#4e9fff;text-decoration:none;'>gemini.google.com</a>",
+      "Sério, é tão fácil. Me poupe, não vou gastar energia com isso, vê com ele aqui: <a href='https://chat.openai.com' target='_blank' rel='noopener noreferrer' style='color:#4e9fff;text-decoration:none;'>chat.openai.com</a>",
+      "Isso vai contra minha religião, pesquisa aqui: <a href='https://www.google.com/search?q={QUERY_ENC}' target='_blank' rel='noopener noreferrer' class='lazy-response' style='color:#4e9fff;text-decoration:none;'>google.com/search?q={QUERY_TXT}</a>",
+      "Meu conhecimento é limitado pela preguiça do meu criador. Tenta no vizinho: <a href='https://chat.openai.com' target='_blank' rel='noopener noreferrer' style='color:#4e9fff;text-decoration:none;'>chat.openai.com</a>",
       "Completar o ensino médio é bom sabia?"
     ];
+
+
 
     // Mensagens de "assine o pacote" ou "estou cansado"
     this.mensagensCansado = [
@@ -450,14 +445,25 @@ class QuaseGPTAPI {
   }
 
   // Responder pergunta complexa com link para o Google
-  responderPerguntaComplexa(mensagem) {
-    // Codificar a mensagem para URL
-    const query = encodeURIComponent(mensagem);
+    responderPerguntaComplexa(mensagem) {
+      const raw = mensagem.trim();
+
+      const QUERY_ENC = encodeURIComponent(raw);
+      const QUERY_TXT = raw
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+
+      const i = Math.floor(Math.random() * this.respostasComplexas.length);
+      return this.respostasComplexas[i]
+        .replaceAll('{QUERY_ENC}', QUERY_ENC)
+        .replaceAll('{QUERY_TXT}', QUERY_TXT);
+    }
+
     
-    // Selecionar uma resposta aleatória e substituir a query
-    const indice = Math.floor(Math.random() * this.respostasComplexas.length);
-    return this.respostasComplexas[indice].replace('{QUERY}', query);
-  }
+
 
   // Gerar resposta aleatória em português errado
   gerarRespostaPortuguesErrado() {

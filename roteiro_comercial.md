@@ -17,7 +17,7 @@ Em um mundo onde as inteligências artificiais evoluem cada vez mais rápido...
 Tarefas repetitivas somem. Atividades criativas são automatizadas.
 Enquanto isso, servidores consomem energia em escala industrial com impactos ambientais crescem silenciosamente.
 Mas talvez o maior risco seja  *(pausa dramática)* 
-a ilusão de controle.
+a ilusão de privacidade e controle.
 Mas apresento a revolução que vai mudar completamente a forma como você... *(pausa mais dramática ainda)* ...se decepciona com a inteligência artificial!
  *(pausa dramática)* 
 
@@ -31,22 +31,22 @@ Mas apresento a revolução que vai mudar completamente a forma como você... *(
 *[Tela dividida mostrando o apresentador e a interface do QuaseGPT, com gráficos matemáticos complexos flutuando ao redor que claramente não fazem sentido]*
 
 **APRESENTADOR:** *(tom de comercial de televendas)*  
-Cansado de calculadoras que sempre acertam? Farto de resultados previsíveis e corretos? O QuaseGPT resolve suas contas com uma margem de erro REVOLUCIONÁRIA!
+Cansado de calculadoras que sempre acertam? Farto de resultados previsíveis e corretos? O QuaseGPT resolve suas contas com uma margem de erro REVOLUCIONÁRIA! Quanto que é 2+2?
 
 *[Mostra na tela: "Quanto é 2+2?"]*
 
 **QUASEGPT:** *(voz robótica com português errado)*  
-"Eu acho que é 6, sei la as vezes eu erro por 2 ou por mais ou menos 3432”
+"22”
 
-**APRESENTADOR:** *(entusiasmado como se fosse a maior descoberta do século)*  
-INCRÍVEL! Chamamos isso de "Inteligência Artificial Seletiva" - inteligente quando quer, confuso quando preferimos.
+**APRESENTADOR:** *(tom de comercial de televendas)*  
+Nosso nível de precisão é tão baixo que garante sua segurança: aqui você não monta um reator nuclear e nem feijãozinho no algodão na varanda.
 
 
 
 ### CENA 3: EMPREGO
 **ENTREVISTADA: ** Oi eu sou a Ana, uso o QuaseGPT para diagnósticos médicos e recentemente só tive 17 processos por negligência com dois pacientes em estado grave, é uma melhoria significativa em relação aos 23 do mês passado.
 
-**APRESENTADOR:**  Ta vendo, enquanto Inteligências Artificias convencionais podem roubar seus empregos, o nosso só irá tira-lo.
+**APRESENTADOR:**  Ta vendo, enquanto Inteligências Artificias convencionais podem roubar seus empregos, o nosso só irá tira-lo do seu.
 
 ### CENA 4: IMPACTO AMBIENTAL
 **APRESENTADOR:** Quase GPT Qual o sentido da vida?
@@ -60,32 +60,33 @@ Calma ae amigão, Após um número considerável de perguntas (tipo 3), o QuaseG
 **APRESENTADOR:**Menos respostas. Menos consumo. Menos utilidade.
 
 
-### CENA 5: DOMINAR O MUNDO
+### CENA 5: QUEM É O SEU DESENVOLVEDOR
+
+**QUASEGPT:** *(voz robótica com português errado)*  
+"Fui desenvolvido por alguém que desafia as estatísticas: carro amarelo, alergia a ovos e  abacaxi, tem um fanatismo por pombo de rua e um histórico impecável de quase alcançar tudo que tenta, isso vale para trabalho, familia e principalmente relacionamentos”
+
+**APRESENTADOR:** *(pausa e repirada de choro)*
+"É...você quaassee acerto, não sou alergico a abacaxi" *Piscada* 
 
 
-**APRESENTADOR:** A ideia de que a IA "dominará" o mundo de forma iminente pode um dia realmente acontece, mas nos garantimos que o QuaseGPT não fará parte desse movimento, não é mesmo?
-**QUASEGPT:** Sim
-**APRESENTADOR:** Sim de não fazer parte ou sim de participar?
-**QUASEGPT:** Sim
-**APRESENTADOR:** Reação igual o filme o Ditador
 
 ### CENA 7: ENCERRAMENTO
 
 *[Música épica volta, apresentador no centro da tela com o logo do QuaseGPT piscando erraticamente]*
 
 **APRESENTADOR:**  
-QuaseGPT! A primeira inteligência artificial MENOS inteligente de todas! E isso faz ser a IA quase humano.
+QuaseGPT! A primeira inteligência artificial MENOS inteligente de todas! E isso faz ser dessa IA quase humano.
 
 *[Efeitos visuais exagerados, confetes digitais que travam no ar]*
 
 
 **LOCUTOR OFF:** *(voz grave e séria com eco excessivo)*  
-QuaseGPT. Quase útil. Quase esperta. QuaseGPT.
+Quase útil. Quase inteligente. QuaseGPT.
 
 *[Texto aparece na tela junto com o logo, mas algumas letras estão faltando]*
 
 **APRESENTADOR:** *(falando rapidamente em voz baixa)*  
-A empresa não se responsabiliza por conselhos ruins, cálculos errados ou crises existenciais causadas pelo uso do QuaseGPT. Não recomendado para uso em trabalhos acadêmicos, decisões importantes ou qualquer situação que exija precisão.
+A empresa não se responsabiliza por conselhos ruins, cálculos errados ou crises existenciais causadas pelo uso do QuaseGPT. Não recomendado para uso em trabalhos acadêmicos, trabalho de trabalhos, projetos pessoais, decisões importantes ou qualquer situação que exija precisão.
 
 ---
 
